@@ -47,10 +47,6 @@ body {
     font-size: 1.5em;
     line-height: 1.5em;
 }
-#active {
-  background-color: white;
-  color: steelblue;
-}
 nav, footer {
   background-color: steelblue;
   color: white;
