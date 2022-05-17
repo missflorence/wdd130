@@ -1,27 +1,27 @@
 body {
-  background-color: #ffB570; 
+  background-color: #bcb8b1; 
 }
 header {
-  background-color: #05739e;
+  background-color: #463f3a;
   color: white;
   margin: 0 auto;
 }
 .book, .join {
-  background-color: #05739e;
+  background-color: #bcb8b1;
   text-decoration: none;
 }
 .book:hover, .join:hover {
-  background-color: #05739e;
+  background-color: #463f3a;
   color: white;
 }
 #background {
-  background-color: #ffB570;
+  background-color: #bcb8b1;
 }
 .msg {
   background-color: #ffB570;
 }
 footer {
-  background-color: #05739e;
+  background-color: #463f3a;
   color: white;
 }
 footer a {
@@ -60,6 +60,6 @@ main section {
   width: 80px;
 }
 .msg {
-  background-color: #05739e;
+  background-color: #8a817c;
   color: white;
 }
