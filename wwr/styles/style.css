@@ -27,6 +27,9 @@ h2 {
   font-size: 2em;
   margin-top: 10px;
 }
+.home-grid {
+  grid-template-columns: 1fr 3fr 1fr;
+}
 .book, .join {
   background-color: #bcb8b1;
   text-decoration: none;
@@ -208,6 +211,19 @@ main section {
       display: block;
       margin: 0 auto;
   }
+.bout-rivers {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding: 35px;
+  grid-column: 6/10;
+  grid-row: 6/7;
+  font-family: "Newsreader", Helvetica, sans-serif;
+  background-color: #463f3a;
+  color: white;
+  line-height: 1.5em;
+  box-shadow: 5px 5px 10px #6f7364;
+}
   footer {
       margin-top: 25px;
   }
