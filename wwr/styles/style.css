@@ -118,10 +118,11 @@ footer .social img {
     max-width: 1600px;
     margin: 0 auto;
   }
-  nav {
-    display: flex;
-    justify-content: space-around;
+nav {
+  display: flex;
+  justify-content: space-around;
   }
+  
 nav a {
   text-align: center;
   text-decoration: none;
@@ -174,11 +175,6 @@ main section {
   width: 80px;
   padding-top: 10px;
 }
-@media screen and (max-width: 900px) {
-  #hero, .home-grid {
-      display: block;
-      height: auto;
-  }
   nav, footer {
       flex-direction: column;
   }
@@ -211,20 +207,44 @@ main section {
       display: block;
       margin: 0 auto;
   }
-.bout-rivers {
+.rivers-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  }
+.bout-rivers-1 {
+  position: relative;
   width: 80%;
-  display: block;
   margin: 0 auto;
   padding: 35px;
-  grid-column: 6/10;
-  grid-row: 6/7;
   font-family: "Newsreader", Helvetica, sans-serif;
   background-color: #463f3a;
   color: white;
-  line-height: 1.5em;
+  line-height: 1.0em;
   box-shadow: 5px 5px 10px #6f7364;
+  margin-top: -20px;
+  columns: 100px 2
 }
-  footer {
-      margin-top: 25px;
+.bout-rivers-title {
+  position: relative;
+  width: 160px; 
+  height: 30px;
+  padding: 5px;
+  background-color: #8a817c; 
+  box-shadow: 5px 5px 10px #463f3a;
+  margin-top: 20px;
+  z-index: 1;
   }
+  .rivers-faq {
+  padding: 5px;
+  box-shadow: 5px 5px 10px #463f3a;
+  align-content: center;
 }
+footer {
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 900px) {
+  #hero, .home-grid {
+      display: block;
+      height: auto;
+  }
